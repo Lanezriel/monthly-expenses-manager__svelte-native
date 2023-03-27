@@ -1,7 +1,5 @@
-<frame>
-    <Home />
-</frame>
+<frame id="rootFrame" defaultPage={Expenses}></frame>
 
-<script lang="ts">
-    import Home from './components/Home.svelte'
+<script>
+  import Expenses from './components/Expenses.svelte';
 </script>
